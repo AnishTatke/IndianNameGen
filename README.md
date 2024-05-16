@@ -4,6 +4,14 @@ This project implements Andrej Karpathy’s infamous MakeMore series on Indian N
 
 All rights and credits for code and idea implementations belong to respect authors. This project is completely coded for research and learning purposes. Big thanks to Andrej and his brilliant compilation of MakeMore series which helps students like myself to understand and experiment with Language models and Deep Learning Optimization Techniques.
 
+## Datset
+The Indian Names Dataset is is custom dataset generated from combining two Kaggle dataset as provided below.
+
+1. https://www.kaggle.com/datasets/ananysharma/indian-names-dataset
+2. https://www.kaggle.com/datasets/jasleensondhi/indian-names-corpus-nltk-data
+
+
+
 - __Bigram Model__
     - This model is based on simple counting and probability of next word based on the immediate previous words. The idea is extended to optimizing a Negative Likelihood Loss that helps in generating newer words.
 - __Bag of Words MLP model__
